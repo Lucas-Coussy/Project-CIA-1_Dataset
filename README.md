@@ -1,26 +1,19 @@
 # Project: CIA-1 Dataset Analysis
 
-This project presents a focused analysis of the **CIA-1 Dataset**, following a structured and reproducible data science workflow.
+This project presents a targeted analysis of the **CIA-1 Dataset**, applying a structured and reproducible data science process.
 
-## Overview
+### 1. **Preprocessing**
+- Analyzes the dataset structure and converts categorical variables into numerical form to prepare for modeling.
 
-The notebook walks through each critical stage of a typical machine learning pipeline:
+### 2. **Descriptive Statistics**
+- Computes key summary statistics and examines the distribution of categorical features.
 
-### 1. **Data Exploration**
-- Examines the dataset's structure, feature types, and missing values.
+### 3. **Logistic Regression**
+- Trains a logistic regression model and evaluates its performance on the dataset.
 
-### 2. **Data Cleaning**
-- Handles missing data, removes duplicates, and resolves inconsistencies.
-
-### 3. **Data Visualization**
-- Uses various plots to explore feature distributions and uncover relationships.
-
-### 4. **Preprocessing Pipeline**
-- Implements `make_pipeline` to standardize transformations and ensure consistency across training and testing phases.
-
-### 5. **Model Building & Evaluation**
-- Trains a machine learning model (e.g., Logistic Regression) and evaluates performance using metrics like **accuracy**, **precision**, **recall**, and **F1-score**.
+### 4. **Neural Network**
+- Builds a basic neural network to compare performance with the logistic model and visualize outcomes.
 
 ## Objective
 
-To extract reliable insights and build an effective predictive model using data analysis and machine learning.
+To derive meaningful insights and develop accurate predictive models using foundational machine learning techniques.
